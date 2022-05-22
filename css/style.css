@@ -1,0 +1,60 @@
+@import url("url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');")
+
+@import "components/container.";
+@import "components/banner.css";
+@import "components/card.css";
+
+
+@import url("components/avatar.css");
+@import url("components/button.css");
+
+body, head {
+	text-align: center;
+}
+
+body {
+	color:rgba(34, 49, 63, 1);
+	font-family: 'Akshar', sans-serif;
+	font-weight: bold;
+	line-height: 1.10;
+
+}
+
+h1 {
+	color: rgba(34, 49, 63, 1);
+	font-style:'Akshar', sans-serif;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 66px;
+
+}
+
+h2, h3 {
+	color: rgba(34, 49, 63, 1);
+	font-family: 'Akshar', sans-serif;
+  font-size: 22px
+}
+
+h4{
+	color: rgba(34, 49, 63, 1);
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: lighter;
+	margin-bottom: 11px;
+	font-size: 25px;
+}
+
+a  {
+	text-decoration: none;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;
+	line-height: 1
+}
+
+a:hover {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 700;	
+}
+
+img {
+ 	border: 3px solid rgba(34, 49, 63, 1);
+ }
